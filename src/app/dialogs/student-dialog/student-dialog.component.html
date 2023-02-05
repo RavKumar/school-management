@@ -1,0 +1,48 @@
+<h2 mat-dialog-title>Add Student Form</h2>
+<div mat-dialog-content>
+    <form [formGroup]="studentForm">
+        <mat-form-field appearance="fill">
+            <mat-label>Student Full Name</mat-label>
+            <input matInput placeholder="Student Full Name" formControlName="studentName">
+        </mat-form-field>
+        <mat-form-field appearance="fill">
+            <mat-label>Father Full Name</mat-label>
+            <input matInput placeholder="Father Full Name" formControlName="fatherName">
+        </mat-form-field>
+        <mat-form-field appearance="fill">
+            <mat-label>Gender</mat-label>
+            <mat-select placeholder="Gender" formControlName="gender">
+                <mat-option value="Male">Male</mat-option>
+                <mat-option value="Female">Female</mat-option>
+            </mat-select>
+        </mat-form-field>
+        <mat-form-field appearance="fill">
+            <mat-label>Class</mat-label>
+            <mat-select placeholder="Class" formControlName="class">
+                <mat-option value="1st Class">1st Class</mat-option>
+                <mat-option value="2nd Class">2nd Class</mat-option>
+                <mat-option value="3rd Class">3rd Class</mat-option>
+                <mat-option value="4th Class">4th Class</mat-option>
+                <mat-option value="5th Class">5th Class</mat-option>
+            </mat-select>
+        </mat-form-field>
+        <mat-form-field appearance="fill">
+            <mat-label>DOB</mat-label>
+            <input matInput [matDatepicker]="picker" formControlName="dob">
+            <mat-datepicker-toggle matIconSuffix [for]="picker"></mat-datepicker-toggle>
+            <mat-datepicker #picker></mat-datepicker>
+        </mat-form-field>
+        <mat-form-field appearance="fill">
+            <mat-label>Phone Number</mat-label>
+            <input matInput type="number" placeholder="Phone Number" formControlName="phone">
+        </mat-form-field>
+        <mat-form-field appearance="fill">
+            <mat-label>Student Address</mat-label>
+            <textarea matInput placeholder="Student Address" formControlName="address"></textarea>
+        </mat-form-field>
+    </form>
+</div>
+<div mat-dialog-actions [align]="'end'">
+    <button mat-raised-button color="warn" mat-dialog-close>Cancel</button>
+    <button mat-raised-button color="primary" (click)="addStudent()">{{actionBtn}}</button>
+</div>

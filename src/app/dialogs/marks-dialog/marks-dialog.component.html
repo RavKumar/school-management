@@ -1,0 +1,33 @@
+<h2 mat-dialog-title>Add Marks Form</h2>
+<div mat-dialog-content>
+    <form [formGroup]="marksForm">
+        <mat-form-field appearance="fill">
+            <mat-label>English</mat-label>
+            <input matInput type="number" placeholder="English" formControlName="english">
+        </mat-form-field>
+        <mat-form-field appearance="fill">
+            <mat-label>Maths</mat-label>
+            <input matInput type="number" placeholder="Maths" formControlName="maths">
+        </mat-form-field>
+        <mat-form-field appearance="fill">
+            <mat-label>Science</mat-label>
+            <input matInput type="number" placeholder="Science" formControlName="science">
+        </mat-form-field>
+        <mat-form-field appearance="fill">
+            <mat-label>Environment Science</mat-label>
+            <input matInput type="number" placeholder="Environment Science" formControlName="envScience">
+        </mat-form-field>
+        <mat-form-field appearance="fill">
+            <mat-label>Social</mat-label>
+            <input matInput type="number" placeholder="Social" formControlName="social">
+        </mat-form-field>
+        <mat-form-field appearance="fill">
+            <mat-label>Physics</mat-label>
+            <input matInput type="number" placeholder="Physics" formControlName="physics">
+        </mat-form-field>
+    </form>
+</div>
+<div mat-dialog-actions [align]="'end'">
+    <button mat-raised-button color="warn" mat-dialog-close>Cancel</button>
+    <button mat-raised-button color="primary" (click)="addStudent()">{{actionBtn}}</button>
+</div>

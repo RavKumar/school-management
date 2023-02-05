@@ -1,0 +1,120 @@
+{
+  "studentsList": [
+    {
+      "studentName": "M Ravi Kumar",
+      "fatherName": "M Pullaiah",
+      "gender": "Male",
+      "class": "5th Class",
+      "dob": "1991-06-03T18:30:00.000Z",
+      "phone": 9036562656,
+      "address": "Plot No - 404, Hyderabad - 518513",
+      "id": 1
+    },
+    {
+      "studentName": "B Beulah",
+      "fatherName": "B Ruben",
+      "gender": "Female",
+      "class": "4th Class",
+      "dob": "1993-07-07T18:30:00.000Z",
+      "phone": 9347674194,
+      "address": "Plot No-404, Mullapudi Residency, Hyderabad",
+      "id": 2
+    },
+    {
+      "studentName": "M Aravindh",
+      "fatherName": "M Ruben",
+      "gender": "Male",
+      "class": "2nd Class",
+      "dob": "2009-02-02T18:30:00.000Z",
+      "phone": 9036562656,
+      "address": "3-12A, Singavaram pin-518513",
+      "id": 3
+    },
+    {
+      "studentName": "M John Abhishek",
+      "fatherName": "M Ruben",
+      "gender": "Male",
+      "class": "1st Class",
+      "dob": "2012-09-06T18:30:00.000Z",
+      "phone": 9000193363,
+      "address": "3-11A, Singavaram, PIN-518513",
+      "id": 4
+    },
+    {
+      "studentName": "S Jaswanth",
+      "fatherName": "S Aliya",
+      "gender": "Male",
+      "class": "3rd Class",
+      "dob": "2008-09-26T18:30:00.000Z",
+      "phone": 8646481360,
+      "address": "#11-M, Mallevemula, Chagalamarri",
+      "id": 5
+    },
+    {
+      "studentName": "S Rajkumar",
+      "fatherName": "S Aliya",
+      "gender": "Male",
+      "class": "2nd Class",
+      "dob": "2009-03-17T18:30:00.000Z",
+      "phone": 8646481360,
+      "address": "#11-M, Mallevemula, Chagalamarri",
+      "id": 6
+    }
+  ],
+  "marksList": [
+    {
+      "english": 35,
+      "maths": 45,
+      "science": 55,
+      "envScience": 65,
+      "social": 75,
+      "physics": 85,
+      "id": 1
+    },
+    {
+      "english": 95,
+      "maths": 85,
+      "science": 75,
+      "envScience": 65,
+      "social": 55,
+      "physics": 45,
+      "id": 2
+    },
+    {
+      "english": 99,
+      "maths": 89,
+      "science": 79,
+      "envScience": 69,
+      "social": 59,
+      "physics": 49,
+      "id": 3
+    },
+    {
+      "english": 66,
+      "maths": 55,
+      "science": 44,
+      "envScience": 99,
+      "social": 88,
+      "physics": 77,
+      "id": 4
+    },
+    {
+      "english": 78,
+      "maths": 88,
+      "science": 38,
+      "envScience": 58,
+      "social": 68,
+      "physics": 48,
+      "id": 6
+    },
+    {
+      "english": 99,
+      "maths": 98,
+      "science": 97,
+      "envScience": 96,
+      "social": 95,
+      "physics": 94,
+      "id": 7
+    }
+  ]
+}
